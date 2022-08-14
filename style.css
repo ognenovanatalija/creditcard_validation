@@ -1,0 +1,61 @@
+body{
+  background-color: rgba(214, 136, 47, 0.813);
+}
+.creditcardform{
+  display:flex;
+  justify-content: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 8px;
+}
+.form{
+  border: 1px solid grey;
+  padding: 25px;
+  align-items: center;
+  width: 350px;
+  border-radius: 8px;
+}
+.payment{
+  border-bottom: 1px solid grey;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.724);
+}
+label {
+  color: rgba(0, 0, 0, 0.724); 
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 14px;
+} 
+
+input{
+  margin-top: 7px;
+  margin-bottom: 15px;
+  width: 95%;
+  height: 25px;
+  border-radius: 8px;
+  border: 1px solid rgb(185, 185, 185);
+  padding: 5px;
+  background-color: rgb(232, 232, 232);
+}
+      
+.confirm{
+  color: white;
+  background-color:  rgb(44, 103, 176);
+  height: 35px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+.cards{
+  max-width:100%;
+}
